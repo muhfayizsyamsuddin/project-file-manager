@@ -1,0 +1,16 @@
+
+# Database credentials
+/connection.php
+
+# Uploaded files - deploy separately
+/uploads/*
+!/uploads/.htaccess
+
+# Environment secrets
+.env
+.env.*
+
+# Local editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
